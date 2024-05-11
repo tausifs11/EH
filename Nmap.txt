@@ -1,0 +1,14 @@
+ACK -sA (TCP ACK scan)
+Command: nmap -sA -T4 scanme.nmap.org
+
+SYN (Stealth) Scan (-sS)
+Command: nmap -p22,113,139 scanme.nmap.org
+
+FIN Scan (-sF) Sets just the TCP FIN bit. 
+Command: nmap -sF -T4 scanme.nmap.org
+
+NULL Scan (-sN)
+Command: nmap –sN –p 22 scanme.nmap.org
+
+XMAS Scan (-sX)
+Command: nmap -sX -T4 scanme.nmap.org
